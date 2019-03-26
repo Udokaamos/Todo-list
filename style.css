@@ -1,0 +1,49 @@
+
+  html, body {
+    height: 100%;
+    color: #000000;
+    /* background: #2D2D2D; */
+  }
+  
+  h1 {
+    margin: 20px 0 15px 0;  
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  ul>li:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .form-inline .form-control {
+    width: 50%;
+    margin-left: 80px;
+  }
+  
+  .done {
+    color: red;
+    text-decoration: line-through;
+  }
+  
+  .undone {
+    color: #000000;
+  }
+  
+  .icon {
+    margin: 6px 10px 6px 0;
+  }
+
+  /* styles for ul */
+  .content__todos {
+    margin: 1em 0 1em 0;
+  }
+  
+  .content__todos__li {
+    opacity: 0;
+    margin-bottom: 0.5em;
+    animation: fadeIn 0.3s 1;
+    animation-fill-mode: forwards;
+  }
+  
